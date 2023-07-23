@@ -1,0 +1,39 @@
+/* HomePage.css */
+.heading{
+  color: var(--grayscale-g-2, #474747);
+  
+
+/* Display/Large */
+font-family: Open Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.96px;
+
+  margin-left: 10px;
+}
+
+/* Custom styles for HomePage component */
+.with-vertical-line {
+    border-right: 1px solid #ccc;
+    padding-right: 20px; /* Add some padding to separate the content from the line */
+  }
+  @media (max-width: 768px) {
+    .heading{
+      color: var(--grayscale-g-2, #474747);
+
+/* Display/Small */
+font-family: Open Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 125% */
+letter-spacing: -0.64px;
+margin-left: 20px;
+    }
+    .with-vertical-line {
+      border-right: none; /* Remove vertical line for small screens */
+       /* Reset padding for small screens */
+    }}
+  

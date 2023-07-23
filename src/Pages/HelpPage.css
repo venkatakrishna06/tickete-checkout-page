@@ -1,0 +1,68 @@
+.chatContainer {
+    display: flex;
+    width: 360px;
+height: 188px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--pumpkin-1, #FFF7ED);
+padding: 32px 24px;
+  }
+  
+  .firstDiv {
+    width: 70%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+  }
+  
+  .textContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+    display: flex;
+  }
+  
+
+  .chatButton {
+    height: 44px;
+   padding: 3px 24px;
+    background: #FFF7ED;
+    border-radius: 12px;
+    border: 0.50px #7F2D0F solid;
+    justify-content: center;
+    align-items: center;
+
+    display: inline-flex;
+    color: #7F2D0F;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  
+  /* Add any additional styles for the SVG icon as needed */
+  .svgIcon {
+    /* Add styles here */
+  }
+  
+  @media (max-width: 768px) {
+
+    .chatContainer {
+        display: flex;
+        width: 291px;
+        height: 150px;
+        flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--pumpkin-1, #FFF7ED);
+    margin-top: 30px;
+  
+      }
+
+
+
+  }

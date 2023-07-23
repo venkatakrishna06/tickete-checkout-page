@@ -1,0 +1,144 @@
+/* ThreeDivsComponent.css */
+  
+  .box {
+    margin: 10px;
+     /* Limit the width of the boxes for better readability */
+  }
+  
+  .box img {
+    width: 360px;
+    height: 230px;
+    border-radius: 12px;
+
+  }
+  
+  .product-desc p {
+    color: var(--grayscale-g-2, #474747);
+    
+
+/* Heading/Small */
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+letter-spacing: -0.36px;
+  }
+  
+  /* ThreeSmallDivsComponent.css */
+
+  
+  .smallBox {
+    display: flex;
+    align-items: center;
+   
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
+  .smallBox div{
+    padding-left: 16px;
+  }
+  
+  .overview-title{
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Small */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+  }
+
+  /* DivWithText.css */
+
+.particulars {
+    display: flex;
+    justify-content: space-between; /* To push the text to opposite sides */
+    /* Adjust the max-width as needed */
+    color: var(--grayscale-g-2, #474747);
+font-feature-settings: 'ss04' on;
+
+/* UI/Medium/Regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+   
+    
+  }
+  
+  .leftText {
+    flex: 1; /* To make this div take as much space as possible */
+  }
+  
+  .rightText {
+    flex: 1; /* To make this div take as much space as possible */
+    text-align: right; /* To align the text to the right */
+  }
+  
+  .discount{
+    color: var(--sacramento-state-green-9, #006642);
+font-feature-settings: 'ss04' on;
+
+/* UI/Medium/Regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+  }
+
+  .title p{
+    color: var(--grayscale-g-2, #474747);
+    font-feature-settings: 'ss04' on;
+    
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    /* 133.333% */
+  }
+
+  .cancelOption {
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: var(--grayscale-g-8, #F5F5F5);
+  }
+
+  #canceltitle{
+    color: var(--grayscale-g-2, #474747);
+
+    /* UI/Regular/Heavy */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+  }
+  #cancelDate{
+    color: var(--grayscale-g-3, #595959);
+
+/* Paragraph/Regular/Regular */
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+  }
+
+  @media (max-width: 768px) {
+    .box img {
+      width: 300px;
+      height: 208px;
+    }
+  }

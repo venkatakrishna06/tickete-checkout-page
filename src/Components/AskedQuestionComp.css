@@ -1,0 +1,64 @@
+/* OuterDivWithTextAndButton.css */
+
+.outer-container {
+   margin-top: 32px;
+  }
+  
+  .inner-container {
+    width: 666px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  .inner-container p{
+    color: var(--grayscale-g-2, #474747);
+/* Heading/Small */
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+letter-spacing: -0.36px;
+  }
+  
+  .small-button {
+    font-size: 14px;
+
+    border: none;
+  background-color: white;
+   
+  }
+  
+  .answer{
+
+    color: var(--grayscale-g-3, #595959);
+    font-feature-settings: 'ss04' on;
+    
+    /* Paragraph/Medium/Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  @media(max-width:767px){
+
+
+    .inner-container {
+        width: 291px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+      }
+      .inner-container p{
+        color: var(--grayscale-g-2, #474747);
+
+        /* Sub-heading/Regular */
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 142.857% */
+      }
+  }

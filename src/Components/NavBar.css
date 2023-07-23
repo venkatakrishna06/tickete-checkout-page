@@ -1,0 +1,47 @@
+/* src/NavBar.css */
+
+/* Custom styles for the NavBar component */
+.navbar {
+    background-color: #fff; /* White background */
+  }
+  
+  .navbar-brand {
+    color: #000; /* Black text color for brand name */
+  }
+  
+  .navbar-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Custom style for the help icon */
+  .help-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Black background for the icon */
+    border-radius: 50%; /* Circular shape for the icon background */
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Add some space between the icon and the text */
+  }
+  
+  .help-icon svg {
+    width: 14px;
+    height: 14px;
+    fill: #fff !important; /* White font color for the icon */
+  }
+  
+  .help-text{
+    text-decoration: none;
+    color: var(--grayscale-g-2, #474747);
+text-align: right;
+font-feature-settings: 'ss04' on;
+
+/* UI/Medium/Regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+  }

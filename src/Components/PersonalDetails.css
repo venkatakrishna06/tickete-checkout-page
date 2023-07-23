@@ -1,0 +1,103 @@
+/* ResponsiveDivs.css */
+
+/* Custom styles for ResponsiveDivs component */
+.responsive-div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -24px;
+  /* Offset margin for the gap */
+}
+
+/* Spacing between each div */
+.custom-div:not(:first-child) {
+  margin-top: 20px;
+}
+
+
+.title {
+  color: var(--grayscale-g-2, #474747);
+  /* Heading/Large */
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  /* 133.333% */
+}
+
+.subtitle {
+  color: var(--grayscale-g-3, #595959);
+  font-feature-settings: 'ss04' on;
+  margin-top: 6px !important;
+
+  /* Paragraph/Medium */
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 160% */
+}
+
+
+.styled-dropdown {
+  width: 327px;
+  height: 68px;
+  flex-shrink: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: var(--brand-ghost-white, #FFF);
+  font-size: 14px;
+  color: #999;
+  transition: padding 0.2s, font-size 0.2s;
+  padding: 16px 20px;
+  /* Add other styles as needed */
+}
+
+/* custom style applied to each div for small screens*/
+@media (max-width: 767px) {
+  .heading {
+    color: var(--grayscale-g-2, #474747);
+
+    /* Display/Small */
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: -0.64px;
+  }
+
+  .custom-div:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  .title {
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Small */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 144.444% */
+    letter-spacing: -0.36px;
+  }
+
+  .subtitle {
+    color: var(--grayscale-g-3, #595959);
+    margin-top: 8px !important;
+
+    /* Paragraph/Regular/Regular */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+  }
+}

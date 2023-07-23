@@ -1,0 +1,67 @@
+
+  
+  .trustBooster{
+    display: flex;
+  }
+  .child {
+    flex: 1;
+  
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+    margin: 10px;
+  
+   padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .promiseTitle{
+    color: var(--grayscale-g-2, #474747);
+font-feature-settings: 'ss04' on;
+
+/* UI/Medium/Heavy */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+  }
+
+  .icon{
+
+
+    margin-bottom: 15px;
+
+
+
+  }
+.promiseSubTitle{
+    color: var(--grayscale-g-3, #595959);
+font-feature-settings: 'ss04' on;
+
+/* Paragraph/Medium */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+  @media (max-width: 768px) {
+    .trustBooster{
+      flex-direction: column; /* Stack the divs in a column on small screens */
+     
+    }
+    .icon{
+      margin-right: 15px;
+    }
+  
+    .child {
+     display: flex; /* Prevent flex items from growing and let them wrap in a column */
+      width: 70%; /* Set each child div to take 100% width in the column */
+      border: none;
+      margin: 10px 0; /* Add margin between the child divs in the column */
+    }
+
+
+  }
