@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCreditCard } from '@fortawesome/free-solid-svg-icons';
 import './PersonalDetails.css';
-import './test.css';
 import TitlesAndSubs from "./TitlesAndSubs";
 
 const PersonalDetails = () => {

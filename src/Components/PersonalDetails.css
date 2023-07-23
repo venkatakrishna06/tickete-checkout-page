@@ -56,6 +56,182 @@
   /* Add other styles as needed */
 }
 
+
+
+/* Form.css */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-lg-6 {
+  flex-basis: calc(50% - 20px);
+}
+
+.input-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input {
+  width: 327px;
+  height: 56px;
+  flex-shrink: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: var(--brand-ghost-white, #FFF);
+  font-size: 14px;
+  color: #999;
+  transition: padding 0.2s, font-size 0.2s;
+}
+
+/* Move placeholder to border on focus or when input has value */
+
+
+/* radio button css */
+
+/* RadioButtons.css */
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+/* For large screens */
+@media (min-width: 768px) {
+  .radio-label {
+    width: 701px;
+    color: var(--grayscale-g-2, #474747);
+    font-feature-settings: 'ss04' on;
+
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    /* Set the label width for large screens */
+  }
+
+  input {
+    width: 384px;
+    height: 68px;
+  }
+
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+  .radio-label {
+    width: 236px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Sub-heading/Regular */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    /* Set the label width for small screens */
+  }
+}
+
+.radio-input {
+  /* Hide the default radio button */
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.radio-input:checked {
+  background-color: black;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.custom-line {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin-top: 15px;
+  /* Set the initial width of the line to 100% */
+}
+
+.errorin {
+  border-color: red;
+  border-radius: 8px;
+
+}
+
+.offer-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--grayscale-g-2, #474747);
+
+  /* Sub-heading/Small */
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  /* 150% */
+}
+
+.offerCheck {
+  border-radius: 8px;
+  padding: 15px;
+  background: var(--grayscale-g-8, #F5F5F5);
+}
+
+
+.submit-button {
+  display: flex;
+  height: 48px;
+  padding: 0px 20px 1px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  background: var(--brand-fogra-39-black, #0A0A0A);
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 30px;
+}
+
+submit-icon {
+  font-size: 24px;
+}
+
 /* custom style applied to each div for small screens*/
 @media (max-width: 767px) {
   .heading {
